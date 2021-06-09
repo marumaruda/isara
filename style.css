@@ -1,0 +1,123 @@
+body {
+    margin: 0%;
+}
+.header {
+    display: flex;
+    width: 1200px;
+    margin: 10px auto;
+}
+.header img {
+    width: 12%;
+    height: 12%;
+}
+.subtitle {
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.button {
+    background-color: rgb(240, 111, 88);
+    position: absolute;
+    right: 20%;
+    padding:10px 40px;
+    border-radius: 20px;
+    margin-top: 5px;
+    color: white;
+}
+.button:hover {
+    background-color: rgb(204, 63, 38);
+}
+.mainvis {
+    text-align: center;
+    background-image: url(img/main.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.mainvis img {
+    width: 20%;
+    height: 20%;
+}
+.mainvis p {
+    font-size: 18px;
+    font-weight: bold;
+}
+.contact {
+    text-align: center;
+    background-color: rgb(243, 189, 89);
+    padding: 40px;
+}
+.text {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 0%;
+}
+.str {
+    font-weight: bold;
+    color: rgb(187, 50, 25);
+    font-size: 20px;
+}
+.big-button {
+    background-color: rgb(240, 111, 88);
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    padding:40px 40px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 100px;
+}
+.big-button:hover {
+    background-color: rgb(204, 63, 38);
+}
+.time {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.intro {
+    background-image: url(img/introbottom.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+
+}
+.border h2 {
+    font-size: 30px;
+}
+.border {
+    position: relative;
+    padding:0.25em 1em;
+    width: 900px;
+    margin: 0 auto;
+}
+.border:before,.border:after{ 
+    content:'';
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    display: inline-block;
+}
+.border:before{
+    border-left: solid 4px rgb(243, 189, 89);
+    border-top: solid 4px rgb(243, 189, 89);
+    top:0;
+    left: 0;
+}
+.border:after{
+    border-right: solid 4px rgb(243, 189, 89);
+    border-bottom: solid 4px rgb(243, 189, 89);
+    bottom:0;
+    right: 0;
+}
+.intro p{
+    font-size: 23px;
+}
+.intro span {
+    background:linear-gradient(transparent 70%, #ebb94d 70%);
+    font-weight: bold;
+}
